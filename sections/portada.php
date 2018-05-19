@@ -3,6 +3,9 @@
     <div class="col-sm-offset-4 col-sm-4 hidden-xs">
       <h1><?= $nombre ?></h1>
       <p><?= $descripcion ?></p>
+      <?php while (have_posts()): the_post();
+        echo the_content();
+      endwhile; ?>
     </div>
     <!-- col-sm-offset-8  -->
     <div class="col-sm-4 pull-right ult-noticias">

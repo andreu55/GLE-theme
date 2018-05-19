@@ -8,51 +8,15 @@
   </p>
 </div>
 <div class="card-container">
-  <div class="card card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2 reveal">
-    <form action="" class="reveal-content">
-      <div id="contact-form" class="row">
-        <div class="col-md-7">
-          <!-- <div class="form-group">
-            <input type="email" class="form-control" id="email" placeholder="Email">
-          </div>
-          <div class="form-group">
-            <textarea class="form-control" rows="5" placeholder="<?= $escribenos ?>"></textarea>
-          </div>
-          <button type="submit" class="btn btn-primary"><?= $send ?></button> -->
-          <?php while (have_posts()): the_post();
-            echo the_content();
-      		endwhile; ?>
-        </div>
-        <div class="col-md-5">
-          <ul class="list-unstyled address-container">
-            <li>
-              <span class="fa-icon">
-                <i class="fas fa-map fa-fw"></i>
-              </span>
-              Ruzafa, Valencia
-            </li>
-            <li>
-              <span class="fa-icon">
-                <i class="fas fa-phone fa-fw"></i>
-              </span>
-              622 666 125
-            </li>
-            <li>
-              <span class="fa-icon">
-                <i class="fas fa-at fa-fw"></i>
-              </span>
-              andreu@martayandreu.com
-            </li>
-            <li>
-              <span class="fa-icon">
-                <i class="fas fa-at fa-fw"></i>
-              </span>
-              marta@andreuymarta.com
-            </li>
-          </ul>
-        </div>
-      </div>
-    </form>
+  <div class="card card-shadow col-xs-10 col-xs-offset-1 col-md-8 col-md-offset-2">
+    <div class="typeform-widget" data-url="https://milady495a.typeform.com/to/dquPrF" data-transparency="100" data-hide-headers=true data-hide-footer=true style="width: 100%; height: 600px;"></div>
+    <script>
+      (function() {
+        var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm", b="https://embed.typeform.com/"; if(!gi.call(d,id)) {
+          js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q)
+        }
+      })()
+    </script>
   </div>
   <div class="card-image col-xs-12 hidden-xs" id="contact-img"></div>
 </div>

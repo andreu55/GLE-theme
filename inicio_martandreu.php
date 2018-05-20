@@ -67,7 +67,10 @@
   <!-- Qué hacemos -->
   <div class="section-container">
     <?php include "sections/quehacemos.php" ?>
+    <?php include "sections/quehacemos2.php" ?>
   </div>
+
+
 
   <!-- Carousel proyectos -->
   <div class="section-container">

@@ -1,4 +1,11 @@
 
+<div class="row section-container-spacer">
+  <div class="col-xs-12 col-md-12">
+    <h2><?= $proyectos_title ?></h2>
+    <?= $proyectos_text ?>
+  </div>
+</div>
+
 <!-- El carousel funciona por id! -->
 <div id="carousel-proyectos" class="carousel carousel-fade slide" data-ride="carousel">
   <div class="carousel-inner" role="listbox">
@@ -21,7 +28,7 @@
             <?= $c['descr'] ?>
           </div>
           <a href="./<?= $c['url'] ?>" target="_blank" rel="nofollow" class="btn btn-primary" title="<?= $c['titulo'] ?>">
-            Discover
+            Visitar su web
           </a>
         </div>
       </div>

@@ -4,7 +4,7 @@
     <?= $que_hacemos_text ?>
   </div>
   <div class="col-sm-6">
-    <img class="img-responsive img-molona-top" src="<?= myurl('assets/images/img-06.jpg') ?>" alt="">
+    <img class="img-responsive img-molona-top" src="<?= myurl('assets/images/404-no-encontrada.jpg') ?>" alt="">
   </div>
 </div>
 

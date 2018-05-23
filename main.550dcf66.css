@@ -43,6 +43,11 @@
   display:block
 } */
 
+.quehacemos_text {
+  padding: 0 10px;
+  text-align: justify;
+}
+
 .logo_first {
   font-family: 'Futura-Medium';
   color: #e6e6e6;
@@ -56,8 +61,12 @@
   height: 950px;
 }
 
+.img-molona {
+  transition: all 0.2s ease-out;
+  margin: 15px 0;
+}
+
 .img-molona-top {
-  transition: all 0.15s ease-in-out;
   clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
 }
 .img-molona-top:hover{
@@ -65,7 +74,6 @@
 }
 
 .img-molona-bot {
-  transition: all 0.15s ease-in-out;
   clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
 }
 

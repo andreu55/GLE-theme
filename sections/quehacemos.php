@@ -18,7 +18,7 @@
   </div>
   <div class="col-sm-6">
     <div class="quehacemos_text">
-      <h2 style="margin-top:0"><?= $que_hacemos2 ?></h2>
+      <h2><?= $que_hacemos2 ?></h2>
       <?= $que_hacemos_text2 ?>
     </div>
   </div>

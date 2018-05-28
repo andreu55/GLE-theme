@@ -1,25 +1,15 @@
-<div class="container-fluid">
+<div class="container">
   <div class="row">
 
     <div class="col-sm-offset-1 col-sm-7 hidden-xs reveal">
-      <div class="reveal-content text-left" style="margin-top:-3em">
-        <h4>¿<?= $nombre ?>?</h4>
+      <div class="texto_portada reveal-content text-left">
+        <h4>¿<?= $nombre ?>?!</h4>
         <?php while (have_posts()): the_post();
-        echo the_content();
-      endwhile; ?>
+          echo the_content();
+        endwhile; ?>
       </div>
     </div>
 
-
-    <?php /*
-    <div class="col-sm-offset-4 col-sm-4 hidden-xs">
-      <h1><?= $nombre ?></h1>
-      <p><?= $descripcion ?></p>
-      <?php while (have_posts()): the_post();
-        echo the_content();
-      endwhile; ?>
-    </div>
-    */ ?>
     <!-- col-sm-offset-8  -->
     <div class="col-sm-4 pull-right ult-noticias">
       <div class="text-right">

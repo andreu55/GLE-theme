@@ -13,7 +13,7 @@
     <?php foreach ($proyectos as $c): ?>
 
       <div class="item fixed-proyectos <?= $c['active'] ? 'active' : '' ?>">
-        <img class="img-responsive" src="<?= myurl('assets/images/') ?><?= $c['img'] ?>" alt="<?= $c['titulo'] ?> imagen">
+        <img class="img-responsive card-shadow" src="<?= myurl('assets/images/') ?><?= $c['img'] ?>" alt="<?= $c['titulo'] ?> imagen">
         <div class="carousel-caption card-shadow reveal">
           <h3><?= $c['titulo'] ?></h3>
           <a class="left carousel-control" href="#carousel-proyectos" role="button" data-slide="prev">
@@ -27,7 +27,7 @@
           <div class="descripcion">
             <?= $c['descr'] ?>
           </div>
-          <a href="./<?= $c['url'] ?>" target="_blank" rel="nofollow" class="btn btn-primary" title="<?= $c['titulo'] ?>">
+          <a href="<?= $c['url'] ?>" target="_blank" rel="nofollow" class="btn btn-primary" title="<?= $c['titulo'] ?>">
             Visitar su web
           </a>
         </div>

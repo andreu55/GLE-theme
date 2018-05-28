@@ -24,7 +24,7 @@ $social = [
 $contacto = 'Contacto';
 $ult_entradas = 'Últimas entradas';
 
-$que_hacemos = '404 Página no encontrada';
+$que_hacemos = '404 ¿Página no encontrada?';
 $que_hacemos_img = 'assets/images/404-no-encontrada.jpg';
 $que_hacemos_text = '<p>Si no estás aún online, ¿a qué esperas? ¡Te estás perdiendo el siglo XXI enterito!</p>
 <p>Y es que da igual que tengas una tienda de perritos calientes o una editorial, lo que importa es que existas en la red.</p>
@@ -64,9 +64,18 @@ $proyectos_text = 'Hemos decorado el escaparate digital de todas estas empresas:
 
 $proyectos = [
   [
+    'titulo' => 'Afactys',
+    'modal_id' => 'afactys',
+    'active' => 1,
+    'img' => 'afactys.jpg',
+    'descr' => '<p>Afactys es una red social para profesionales del arte, para promocionar su porfolio y facilitar relaciones sociales y de trabajo. Empezó como un proyecto entre amigos, una idea de pequeña envergadura que creció y creció, y que acabó consiguiendo financiación del Ministerio de Cultura para promover el trabajo de los actores.</p>
+      <p>Cuando ahora me frustro intentando hacer cosas nuevas, me acuerdo de que cuando empecé con Afactys no sabía nada y tenía que consultar la documentación hasta para mandar un formulario. Era frustrante, pero también muy satisfactorio.</p>
+      <p>Programé todo Afactys, desde la validación de los correos hasta la estructura de la base de datos, y por eso le tengo un cariño especial.</p>',
+    'url' => 'https://afactys.com/'
+  ],[
     'titulo' => 'Centro Maná',
     'modal_id' => 'centro_mana',
-    'active' => 1,
+    'active' => 0,
     'img' => 'img-06.jpg',
     'descr' => '<p>Centro Maná es un centro de psicología integrativa en Jalón, Alicante.</p>
       <p>Maite necesitaba promocionar el centro y sus actividades y atraer a nuevos clientes. También quería ofrecer un boletín a sus suscriptores con toda la información de eventos futuros y que pudieran apuntarse fácil y cómodamente a través de la web.</p>

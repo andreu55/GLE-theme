@@ -15,16 +15,18 @@
             </p>
           </div>
           <div class="col-xs-12 col-sm-5">
-            <div class="pull-right">
+            <!-- <div class="pull-right"> -->
               <h3 class="template-title-example">
                 <a href="<?= $baseUrl ?>/blog">
                   <?= $ult_entradas ?>
                 </a>
               </h3>
               <?php while ($posts_query->have_posts()) : $posts_query->the_post(); ?>
-                <p><i class="fas fa-angle-right fa-fw"></i><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></p>
+                <p class="portada_post_line">
+                  <i class="fas fa-angle-right fa-fw"></i><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                </p>
               <?php endwhile; wp_reset_query(); ?>
-            </div>
+            <!-- </div> -->
           </div>
         </div>
       </div>

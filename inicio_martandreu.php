@@ -53,7 +53,8 @@
 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
 
-  <link href="<?= myurl('main.550dcf66.css') ?>" rel="stylesheet">
+  <link href="<?= myurl('css/main.css') ?>" rel="stylesheet">
+  <link href="<?= myurl('css/custom.css') ?>" rel="stylesheet">
 </head>
 
 <body>

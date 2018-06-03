@@ -1,4 +1,7 @@
-<?php /* Template Name: MartaAndreu */
+<?php
+  /**
+  * Template Name: Google, luego existo
+  */
 
   // $url = get_bloginfo('url');
   // $url = bloginfo('template_directory');
@@ -11,20 +14,6 @@
     }
     return bloginfo('template_directory').$str;
   }
-
-  // if (!isset($path)) {
-  //
-  //   $path = $_SERVER['PATH_INFO'] ?? '';
-  //   $path = trim($path, '/');
-  //
-  //   $permitidos = ['es', 'en'];
-  //
-  //   if (!$path || !in_array($path, $permitidos)) {
-  //     if (strpos($_SERVER['HTTP_ACCEPT_LANGUAGE'], 'es') !== false) { $path = 'es'; }
-  //     else { $path = 'en'; }
-  //   }
-  // }
-  // require_once "idiomas/$path/datos.php";
 
   require_once "inicio_textos.php";
 
@@ -91,11 +80,11 @@
   </div>
 
   <!-- Testimonios -->
-  <div class="section-container" id="testimonios">
+  <!-- <div class="section-container" id="testimonios">
     <div class="row section-container-spacer text-center">
-      <?php include "sections/testimonios.php" ?>
+      <?php /*include "sections/testimonios.php"*/ ?>
     </div>
-  </div>
+  </div> -->
 
   <!-- Contacto -->
   <div id="contacto" class="section-container contact-container">
@@ -139,6 +128,31 @@
 
 <script type="text/javascript" src="<?= myurl('main.0cf8b554.js') ?>"></script>
 
+<script src="https://cdn.jsdelivr.net/npm/typeit@5.10.1/dist/typeit.min.js" integrity="sha256-wV/fTluTFUM+Lv1nAc3DgjOOZlo12Dlf8Rsn2x/LU08=" crossorigin="anonymous"></script>
+
+<script type="text/javascript">
+
+  // Documentacion: https://typeitjs.com
+  var instance = new TypeIt('#t_portada', {
+    speed: 50,
+    //   cursor: false,
+    autoStart: false,
+    afterComplete: function (instance) {
+      setTimeout(() => {
+        instance.destroy();
+      }, 1000);
+    }
+    })
+    .type('<span class="g-gr">Goo</span>')
+    .pause(500)
+    .delete(2)
+    .pause(100)
+    .delete(1)
+    .type('<span class="g-az">G</span><span class="g-ro">o</span><span class="g-am">o</span><span class="g-az">g</span><span class="g-ve">l</span><span class="g-ro">e</span>, ')
+    .pause(1000)
+    .type('<span class="logo_second">luego existo</span>');
+
+</script>
 </body>
 
 </html>

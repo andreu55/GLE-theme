@@ -8,7 +8,7 @@
             <p><?= $descripcion ?></p>
             <?php include "socialbuttons.php" ?>
 
-            <p class="thanks">
+            <p class="thanks hidden-xs">
               <small>
                 Thanks to <a href="http://www.mashup-template.com/" target="_blank" rel="nofollow" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" target="_blank" rel="nofollow">Unsplash</a> for this template! <i class="far fa-heart fa-fw"></i>
               </small>

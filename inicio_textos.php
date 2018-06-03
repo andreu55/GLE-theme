@@ -1,6 +1,7 @@
 <?php
 
 $nombre = '<span class="logo_first">Google, </span><span class="logo_second">luego existo</span>';
+// $nombre_colors = '<span class="g-az">G</span><span class="g-ro">o</span><span class="g-am">o</span><span class="g-az">g</span><span class="g-ve">l</span><span class="g-ro">e</span>, <span class="logo_second">luego existo</span>';
 $nombre_plano = 'Google, luego existo';
 
 $descripcion = get_bloginfo('description', 'display');
@@ -86,7 +87,7 @@ $proyectos = [
     'titulo' => 'WriterMuse',
     'modal_id' => 'writermuse',
     'active' => 0,
-    'img' => 'img-07.jpg',
+    'img' => 'writermuse.jpg',
     'descr' => '<p>WriterMuse es una plataforma para escritores noveles donde encontrar todo tipo de recursos de escritura y creatividad, y donde Marta ofrece sus servicios como correctora y asesora literaria.</p>
     <p>WriterMuse es un centro de recursos, un blog y una página profesional, pero tiene una peculiaridad que lo hace único. Entre los dos creamos un complejo sistema de emailing para ayudar a cada visitante con su problema específico, porque cada persona es un mundo, pero cada escritor es todo un universo.</p>
     <p>(Marta): Este es mi proyecto personal, algo en lo que creo a pies juntillas: la creatividad es para todos y la escritura puede volver a ser un placer, con las herramientas adecuadas.</p>',

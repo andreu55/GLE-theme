@@ -1,14 +1,18 @@
 <div class="container">
   <div class="row">
 
-    <!-- col-sm-offset-1  -->
-    <div class="col-sm-7 hidden-xs reveal">
-      <div class="texto_portada reveal-content text-left">
-        <h4>¿<?= $nombre ?>?!</h4>
-        <?php while (have_posts()): the_post();
+    <!-- col-sm-offset-1 reveal -->
+    <div class="col-sm-7 hidden-xs">
+      <!-- <div class="texto_portada text-left reveal-content"> -->
+      <!-- class="text-left" -->
+        <h1>
+          <span id="t_portada"></span>
+          <!-- <span id="t_portada"></span><span class="logo_second">luego existo</span> -->
+        </h1>
+        <?php /* while (have_posts()): the_post();
           echo the_content();
-        endwhile; ?>
-      </div>
+        endwhile; */ ?>
+      <!-- </div> -->
     </div>
 
     <!-- col-sm-offset-8  -->

@@ -26,7 +26,6 @@ $contacto = 'Contacto';
 $ult_entradas = 'Últimas entradas';
 
 $que_hacemos = '404 ¿Página no encontrada?';
-$que_hacemos_img = 'assets/images/404-no-encontrada.jpg';
 $que_hacemos_text = '<p>Si no estás aún online, ¿a qué esperas? ¡Te estás perdiendo el siglo XXI enterito!</p>
 <p>Y es que da igual que tengas una tienda de perritos calientes o una editorial, lo que importa es que existas en la red.</p>
 <p>
@@ -39,7 +38,6 @@ $que_hacemos_text = '<p>Si no estás aún online, ¿a qué esperas? ¡Te estás 
 </p>';
 
 $que_hacemos2 = 'Pero «Encontrada» no basta';
-$que_hacemos2_img = 'assets/images/pero-encontrada.jpg';
 $que_hacemos_text2 = '<p>Tienes que hacerte dos preguntas: «¿puede mi potencial cliente encontrarme?» y «¿se quedará si me encuentra?»</p>
 <p>
   Casi todo el mundo está ya en Google, pero una gran mayoría no tiene visibilidad.

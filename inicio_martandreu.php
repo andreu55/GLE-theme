@@ -138,16 +138,18 @@
     //   cursor: false,
     autoStart: false,
     afterComplete: function (instance) {
+      // Destruir cursor al segundo de terminar
       setTimeout(() => {
         instance.destroy();
       }, 1000);
     }
     })
-    .type('<span class="g-gr">Goo</span>')
+    .type('<span class="g-gr">Goog</span>')
     .pause(500)
-    .delete(2)
-    .pause(100)
+    .delete(3)
+    .pause(200)
     .delete(1)
+    .pause(150)
     .type('<span class="g-az">G</span><span class="g-ro">o</span><span class="g-am">o</span><span class="g-az">g</span><span class="g-ve">l</span><span class="g-ro">e</span>, ')
     .pause(1000)
     .type('<span class="logo_second">luego existo</span>');

@@ -36,10 +36,12 @@
 }
 
 .hero-full-container {
-  padding: 9% 0 19%;
+  padding: 18% 0 30%;
 }
 
 .quehacemos_text {
+  margin-top:20px;
+  font-size:20px;
   padding: 0 10px;
   text-align: justify;
 }
@@ -77,7 +79,7 @@
   clip-path: polygon(20% 0%, 0% 20%, 30% 50%, 0% 80%, 20% 100%, 50% 70%, 80% 100%, 100% 80%, 70% 50%, 100% 20%, 80% 0%, 50% 30%);
 }
 .img-molona-top:hover{
-  clip-path: polygon(7% 0%, 0% 10%, 0% 50%, 0% 90%, 10% 100%, 50% 100%, 90% 100%, 100% 90%, 100% 50%, 100% 10%, 90% 0%, 50% 0%);
+  clip-path: polygon(4% 0%, 0% 5%, 0% 50%, 0% 95%, 0% 100%, 50% 100%, 96% 100%, 100% 95%, 100% 50%, 100% 0%, 100% 0%, 50% 0%);
 }
 
 .img-molona-bot {

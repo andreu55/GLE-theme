@@ -124,7 +124,7 @@ $nosotros = [
     'img-mobile' => 'marta-arriba.png',
     'alt' => 'Marta Tornero',
     'funcion' => 'Copywriter & Community Manager',
-    'descr' => 'Sed elementum vehicula nisl, a egestas velit rhoncus nec.Cras vel sapien tincidunt, lacinia risus vel, imperdiet neque.',
+    'descr' => 'A Marta le pirra todo lo que tenga que ver con escribir. Escribe ficción, escribe artículos, escribe textos para la web y redes sociales y escribe en su diario (pero no todos los días porque ya le parece demasiado). Cuando ya no puede más, se pone a leer. Pero no es tan obsesiva como puede parecerte: también baila (con Andreu, mejor que mejor), da paseos (durante los cuales piensa en escribir) y se devana los sesos con películas sobre paradojas temporales.',
     'social' => [
       [
         'icon' => 'fab fa-facebook-f',
@@ -147,7 +147,7 @@ $nosotros = [
     'img-mobile' => 'andreu-abajo.png',
     'alt' => 'Andreu Garcia',
     'funcion' => 'Full Stack Developer',
-    'descr' => 'Sed elementum vehicula nisl, a egestas velit rhoncus nec.Cras vel sapien tincidunt, lacinia risus vel, imperdiet neque.',
+    'descr' => 'A Andreu le encanta solucionar problemas y dar con la manera óptima y exacta de hacer algo, y no deja en paz una página web hasta que todos los recursos han sido optimizados al máximo (lo cual a veces desespera a Marta). Típico cerebro de hemisferio izquierdo dominante, lógico y racional... hasta que lo conoces. Bailongo, culo inquieto y apasionado de la música electrónica, quisiera tener su propio huerto urbano pero se le mueren hasta los tomates cherry.',
     'social' => [
       [
         'icon' => 'fab fa-facebook-f',

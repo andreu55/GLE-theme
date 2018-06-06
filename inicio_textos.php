@@ -70,17 +70,7 @@ $proyectos = [
     'descr' => '<p>Afactys es una red social para profesionales del arte, para promocionar su porfolio y facilitar relaciones sociales y de trabajo. Empezó como un proyecto entre amigos, una idea de pequeña envergadura que creció y creció, y que acabó consiguiendo financiación del Ministerio de Cultura para promover el trabajo de los actores.</p>
       <p>Cuando ahora me frustro intentando hacer cosas nuevas, me acuerdo de que cuando empecé con Afactys no sabía nada y tenía que consultar la documentación hasta para mandar un formulario. Era frustrante, pero también muy satisfactorio.</p>
       <p>Programé todo Afactys, desde la validación de los correos hasta la estructura de la base de datos, y por eso le tengo un cariño especial.</p>',
-    'url' => 'https://afactys.com/'
-  ],[
-    'titulo' => 'Centro Maná',
-    'modal_id' => 'centro_mana',
-    'active' => 0,
-    'img' => 'img-06.jpg',
-    'descr' => '<p>Centro Maná es un centro de psicología integrativa en Jalón, Alicante.</p>
-      <p>Maite necesitaba promocionar el centro y sus actividades y atraer a nuevos clientes. También quería ofrecer un boletín a sus suscriptores con toda la información de eventos futuros y que pudieran apuntarse fácil y cómodamente a través de la web.</p>
-      <p>Una web funcional y atractiva es fundamental para generar autoridad y para seguir creciendo. Los que conocían a Maite y su centro la recomendaban por el boca a boca, pero se estaba perdiendo todo el tráfico de la gente que buscaba servicios de psicología y talleres de terapia por la zona.</p>
-      <p>Hoy Maite tiene a sus clientes de toda la vida, siempre fieles, y un flujo constante de gente nueva que no hubiera conocido Centro Maná de otra forma.</p>',
-    'url' => 'project.html'
+    'url' => 'https://afactys.com'
   ],[
     'titulo' => 'WriterMuse',
     'modal_id' => 'writermuse',
@@ -90,6 +80,35 @@ $proyectos = [
     <p>WriterMuse es un centro de recursos, un blog y una página profesional, pero tiene una peculiaridad que lo hace único. Entre los dos creamos un complejo sistema de emailing para ayudar a cada visitante con su problema específico, porque cada persona es un mundo, pero cada escritor es todo un universo.</p>
     <p>(Marta): Este es mi proyecto personal, algo en lo que creo a pies juntillas: la creatividad es para todos y la escritura puede volver a ser un placer, con las herramientas adecuadas.</p>',
     'url' => 'project.html'
+  ],[
+    'titulo' => 'Cuentónomo',
+    'modal_id' => 'cuentonomo',
+    'active' => 0,
+    'img' => 'cuentonomo.png',
+    'descr' => '<p>Cuentónomo es un proyecto personal que empezó como una aplicación sin ni siquiera base de datos para contar los ingresos y los gastos que tenía siendo autónomo y calcularme automáticamente los desgraves y lo que tenía que ingresar de IVA en cada trimestre.</p>
+    <p>Algunos amigos que vieron me dijeron que estaba muy bien y que porqué no la ofrecía al público, así que la cambié para que utilizara una base de datos e hice los cambios necesarios para adaptarla.</p>
+    <p>Actualmente sigue en proceso de expansión, voy añadiendo nuevas ideas cuando saco un poco de tiempo!</p>',
+    'url' => 'https://cuentonomo.com'
+  ],[
+    'titulo' => 'Centro Maná',
+    'modal_id' => 'centro_mana',
+    'active' => 0,
+    'img' => 'img-06.jpg',
+    'descr' => '<p>Centro Maná es un centro de psicología integrativa en Jalón, Alicante.</p>
+    <p>Maite necesitaba promocionar el centro y sus actividades y atraer a nuevos clientes. También quería ofrecer un boletín a sus suscriptores con toda la información de eventos futuros y que pudieran apuntarse fácil y cómodamente a través de la web.</p>
+    <p>Una web funcional y atractiva es fundamental para generar autoridad y para seguir creciendo. Los que conocían a Maite y su centro la recomendaban por el boca a boca, pero se estaba perdiendo todo el tráfico de la gente que buscaba servicios de psicología y talleres de terapia por la zona.</p>
+    <p>Hoy Maite tiene a sus clientes de toda la vida, siempre fieles, y un flujo constante de gente nueva que no hubiera conocido Centro Maná de otra forma.</p>',
+    'url' => 'project.html'
+  ],[
+    'titulo' => 'Taxo Valoración',
+    'modal_id' => 'taxo',
+    'active' => 0,
+    'img' => 'taxo.jpg',
+    'descr' => '<p>Taxo es una compañía de tasaciones que me contrató a mí y a otros miembros de mi equipo para empezar su andadura digital.</p>
+    <p>Necesitaba renovarse y cambiar las aplicaciones viejas de gestión por unas nuevas y más efectivas, no solo para la empresa sino también para los clientes externos, pero hasta que presentamos las nuevas apps transcurrió un periodo oscuro en que mi trabajo consistió sobre todo en deshacer marañas de código y solucionar líos.</p>
+    <p>Taxo es ahora mi principal cliente y actualmente gestiono dos proyectos con ellos:</p>
+    <p>Delfos por ejemplo, es una aplicación web de gestión interna desde la cual los encargados de personal llevan a cabo búsquedas de tasadores y consultas de documentos. Dirigí el desarrollo de la aplicación en Angular e hice la API en Laravel.</p>',
+    'url' => 'https://taxo.es'
   ],[
     'titulo' => 'The Body Massamagrell',
     'modal_id' => 'the_body_massamagrell',

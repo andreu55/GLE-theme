@@ -6,7 +6,7 @@
           <div class="col-xs-12 col-sm-7">
             <h3><?= $nombre ?></h3>
             <p><?= $descripcion ?></p>
-            <?php include "socialbuttons.php" ?>
+            <?php // include "socialbuttons.php" ?>
 
             <p class="thanks hidden-xs">
               <small>

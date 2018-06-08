@@ -6,22 +6,6 @@ $nombre_plano = 'Google, luego existo';
 
 $descripcion = get_bloginfo('description', 'display');
 
-$social = [
-  [
-    'icon' => 'fab fa-facebook-f',
-    'url' => 'https://facebook.com'
-  ],[
-    'icon' => 'fab fa-twitter',
-    'url' => 'https://twitter.com'
-  ],[
-    'icon' => 'fab fa-linkedin-in',
-    'url' => 'https://www.linkedin.com'
-  ],[
-    'icon' => 'fas fa-rss',
-    'url' => 'https://www.rss.com'
-  ]
-];
-
 $contacto = 'Contacto';
 $ult_entradas = 'Últimas entradas';
 
@@ -103,7 +87,7 @@ $proyectos = [
     'titulo' => 'Taxo Valoración',
     'modal_id' => 'taxo',
     'active' => 0,
-    'img' => 'taxo.jpg',
+    'img' => 'taxo.png',
     'descr' => '<p>Taxo es una compañía de tasaciones que me contrató a mí y a otros miembros de mi equipo para empezar su andadura digital.</p>
     <p>Necesitaba renovarse y cambiar las aplicaciones viejas de gestión por unas nuevas y más efectivas, no solo para la empresa sino también para los clientes externos, pero hasta que presentamos las nuevas apps transcurrió un periodo oscuro en que mi trabajo consistió sobre todo en deshacer marañas de código y solucionar líos.</p>
     <p>Taxo es ahora mi principal cliente y actualmente gestiono dos proyectos con ellos:</p>
@@ -146,17 +130,17 @@ $nosotros = [
     'descr' => 'A Marta le pirra todo lo que tenga que ver con escribir. Escribe ficción, escribe artículos, escribe textos para la web y redes sociales y escribe en su diario (pero no todos los días porque ya le parece demasiado). Cuando ya no puede más, se pone a leer. Pero no es tan obsesiva como puede parecerte: también baila (con Andreu, mejor que mejor), da paseos (durante los cuales piensa en escribir) y se devana los sesos con películas sobre paradojas temporales.',
     'social' => [
       [
-        'icon' => 'fab fa-facebook-f',
-        'url' => 'https://facebook.com'
-      ],[
-        'icon' => 'fab fa-twitter',
-        'url' => 'https://twitter.com'
+        'icon' => 'far fa-user',
+        'url' => 'https://mtornero.com'
       ],[
         'icon' => 'fab fa-linkedin-in',
-        'url' => 'https://www.linkedin.com'
+        'url' => 'https://www.linkedin.com/in/marta-tornero-rubio'
       ],[
-        'icon' => 'fas fa-rss',
-        'url' => 'https://www.linkedin.com'
+        'icon' => 'fab fa-twitter',
+        'url' => 'https://twitter.com/MartaWriterMuse'
+      ],[
+        'icon' => 'fab fa-facebook-f',
+        'url' => 'https://www.facebook.com/mtornerorubio'
       ]
     ]
   ],[
@@ -169,17 +153,17 @@ $nosotros = [
     'descr' => 'A Andreu le encanta solucionar problemas y dar con la manera óptima y exacta de hacer algo, y no deja en paz una página web hasta que todos los recursos han sido optimizados al máximo (lo cual a veces desespera a Marta). Típico cerebro de hemisferio izquierdo dominante, lógico y racional... hasta que lo conoces. Bailongo, culo inquieto y apasionado de la música electrónica, quisiera tener su propio huerto urbano pero se le mueren hasta los tomates cherry.',
     'social' => [
       [
-        'icon' => 'fab fa-facebook-f',
-        'url' => 'https://facebook.com'
-      ],[
-        'icon' => 'fab fa-twitter',
-        'url' => 'https://twitter.com'
+        'icon' => 'far fa-user',
+        'url' => 'https://andreugarcia.com'
       ],[
         'icon' => 'fab fa-linkedin-in',
-        'url' => 'https://www.linkedin.com'
+        'url' => 'https://www.linkedin.com/in/andreugarcia-com'
       ],[
-        'icon' => 'fas fa-rss',
-        'url' => 'https://www.linkedin.com'
+        'icon' => 'fab fa-twitter',
+        'url' => 'https://twitter.com/andreu55'
+      ],[
+        'icon' => 'fab fa-facebook-f',
+        'url' => 'https://www.facebook.com/anduwet'
       ]
     ]
   ]

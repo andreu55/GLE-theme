@@ -34,7 +34,6 @@
       </div>
       <br>
       <div class="pull-right">
-        <?php include("socialbuttons.php") ?>
       </div>
     </div>
   </div>

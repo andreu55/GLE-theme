@@ -15,7 +15,7 @@
     return bloginfo('template_directory').$str;
   }
 
-  require_once "inicio_textos.php";
+  require_once "textosGLE.php";
 
 ?>
 

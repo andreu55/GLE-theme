@@ -110,7 +110,7 @@
   height: 151px;
   max-width: 100%
 }
-.navbar-logo-img {
+.navbar-logo-img, .custom-logo {
   height: 45px;
   width: 45px;
 }

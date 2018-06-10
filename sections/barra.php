@@ -9,7 +9,8 @@
         <a href="#contacto" class="btn btn-default navbar-btn navbar-toggle collapsed pull-right" title="¡Contacta con nosotros!"><?= $contacto ?></a>
 
         <a class="navbar-brand" href="<?= home_url( '/' ); ?>">
-          <img src="<?= myurl('assets/images/logo.svg') ?>" class="navbar-logo-img" logo">
+          <?php // twentyfifteen_the_custom_logo(); ?>
+          <img src="<?= myurl('assets/images/logo.png') ?>" class="navbar-logo-img" logo">
           &nbsp;
           <?= $nombre ?>
         </a>

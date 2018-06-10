@@ -18,5 +18,5 @@
       })()
     </script>
   </div>
-  <div class="card-image col-xs-12 hidden-xs" id="contact-img"></div>
+  <div class="card-image col-xs-12 card-shadow hidden-xs" id="contact-img"></div>
 </div>

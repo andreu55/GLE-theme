@@ -62,15 +62,15 @@
   </div>
 
   <!-- Carousel proyectos -->
-  <div class="section-container">
+  <!-- <div class="section-container">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <?php include "sections/proyectos.php" ?>
+          <?php // include "sections/proyectos.php" ?>
         </div>
       </div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Quienes somos -->
   <div class="section-container">
@@ -82,7 +82,7 @@
   <!-- Testimonios -->
   <!-- <div class="section-container" id="testimonios">
     <div class="row section-container-spacer text-center">
-      <?php /*include "sections/testimonios.php"*/ ?>
+      <?php // include "sections/testimonios.php" ?>
     </div>
   </div> -->
 
@@ -100,17 +100,19 @@
   <script>
     document.addEventListener("DOMContentLoaded", function (event) {
       navbarFixedTopAnimation();
+      navActivePage();
+      scrollRevelation('.reveal');
     });
   </script>
 
   <?php include "sections/footer.php" ?>
 
-  <script>
+  <!-- <script>
     document.addEventListener("DOMContentLoaded", function (event) {
       navActivePage();
       scrollRevelation('.reveal');
     });
-  </script>
+  </script> -->
 
   <!-- Google Analytics: change UA-XXXXX-X to be your site's ID
 

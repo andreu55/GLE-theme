@@ -123,11 +123,17 @@ $nosotros = [
     'alt' => 'Marta Tornero',
     'funcion' => 'Copywriter & Community Manager',
     'descr' => 'A Marta le pirra todo lo que tenga que ver con escribir. Escribe ficción, escribe artículos, escribe textos para la web y redes sociales y escribe en su diario (pero no todos los días porque ya le parece demasiado). Cuando ya no puede más, se pone a leer. Pero no es tan obsesiva como puede parecerte: también baila (con Andreu, mejor que mejor), da paseos (durante los cuales piensa en escribir) y se devana los sesos con películas sobre paradojas temporales.',
+    'botonacos' => [
+      [
+        'texto' => 'Visitar <b>mtornero.com</b>',
+        'url' => 'https://mtornero.com'
+      ],[
+        'texto' => 'Visitar <b>writermuse.es</b>',
+        'url' => 'https://writermuse.es'
+      ]
+    ],
     'social' => [
       [
-        'icon' => 'far fa-user',
-        'url' => 'https://writermuse.es'
-      ],[
         'icon' => 'fab fa-linkedin-in',
         'url' => 'https://www.linkedin.com/in/marta-tornero-rubio'
       ],[
@@ -146,20 +152,24 @@ $nosotros = [
     'alt' => 'Andreu Garcia',
     'funcion' => 'Full Stack Developer',
     'descr' => 'A Andreu le encanta solucionar problemas y dar con la manera óptima y exacta de hacer algo, y no deja en paz una página web hasta que todos los recursos han sido optimizados al máximo (lo cual a veces desespera a Marta). Típico cerebro de hemisferio izquierdo dominante, lógico y racional... hasta que lo conoces. Bailongo, culo inquieto y apasionado de la música electrónica, querría tener su propio huerto urbano pero se le mueren hasta los tomates cherry.',
+    'botonacos' => [
+      [
+        'texto' => 'Visitar <b>andreugarcia.com</b>',
+        'url' => 'https://andreugarcia.com'
+      ]
+    ],
     'social' => [
       [
-        'icon' => 'far fa-user',
-        'url' => 'https://andreugarcia.com'
-      ],[
         'icon' => 'fab fa-linkedin-in',
         'url' => 'https://www.linkedin.com/in/andreugarcia-com'
-      ],[
-        'icon' => 'fab fa-twitter',
-        'url' => 'https://twitter.com/andreu55'
-      ],[
-        'icon' => 'fab fa-facebook-f',
-        'url' => 'https://www.facebook.com/anduwet'
       ]
+      // ,[
+      //   'icon' => 'fab fa-twitter',
+      //   'url' => 'https://twitter.com/andreu55'
+      // ],[
+      //   'icon' => 'fab fa-facebook-f',
+      //   'url' => 'https://www.facebook.com/anduwet'
+      // ]
     ]
   ]
 ];

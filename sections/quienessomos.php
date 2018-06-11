@@ -15,6 +15,13 @@
         <?= $u['descr'] ?>
       </p>
       <p>
+        <?php foreach ($u['botonacos'] as $btn): ?>
+          <a href="<?= $btn['url'] ?>" target="_blank" rel="nofollow" class="btn btn-primary">
+            <?= $btn['texto'] ?>
+          </a>
+        <?php endforeach; ?>
+      </p>
+      <p>
         <?php foreach ($u['social'] as $url): ?>
           <a href="<?= $url['url'] ?>" target="_blank" rel="nofollow" class="social-round-icon fa-icon" title="">
             <i class="<?= $url['icon'] ?>"></i>

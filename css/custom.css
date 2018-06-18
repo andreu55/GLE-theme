@@ -71,6 +71,10 @@
 .g-am { color: #FBBC05; }
 .g-ve { color: #34A853; }
 
+.background-image-container {
+  background-size: contain;
+}
+
 .fixed-proyectos {
   height: 950px;
 }

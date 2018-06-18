@@ -50,7 +50,13 @@
   <?php include "sections/barra.php" ?>
 
   <!-- Portada -->
-  <div class="hero-full-container background-image-container white-text-container">
+  <!-- data-vide-bg es la url del video (sin la extensión (.mp4))  -->
+
+  <!-- <div class="hero-full-container background-image-container white-text-container"> -->
+
+  <!-- data-vide-bg="<?//= isMobile() ? 'poster: vids/mtdark' : 'mp4: vids/mtdark, poster: vids/mtdark'?>" data-vide-options="posterType: jpg" -->
+
+  <div id="vid" data-vide-bg="<?= myurl('assets/vids/mtdark') ?>" class="hero-full-container background-image-container white-text-container">
     <?php include "sections/portada.php" ?>
   </div>
 
@@ -60,6 +66,12 @@
       <?php include "sections/quehacemos.php" ?>
     </div>
   </div>
+
+  <!-- Collapsible full width -->
+  <!-- <div class="section-container">
+    <?php // include "sections/collapsed.php" ?>
+  </div> -->
+
 
   <!-- Carousel proyectos -->
   <!-- <div class="section-container">
@@ -130,6 +142,9 @@
 
 <script type="text/javascript" src="<?= myurl('main.0cf8b554.js') ?>"></script>
 
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+<!-- <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/vide/0.5.1/jquery.vide.min.js" integrity="sha256-vjlQ2rQnkbtQ1goJyAhpuoyG99q3Tv8juRo2XQxxCDE=" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/typeit@5.10.1/dist/typeit.min.js" integrity="sha256-wV/fTluTFUM+Lv1nAc3DgjOOZlo12Dlf8Rsn2x/LU08=" crossorigin="anonymous"></script>
 
 <script type="text/javascript">
@@ -157,6 +172,9 @@
     .type('<span class="logo_second">luego existo</span>');
 
 </script>
+
+
+
 </body>
 
 </html>

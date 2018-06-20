@@ -9,31 +9,33 @@ $descripcion = get_bloginfo('description', 'display');
 $contacto = 'Contacto';
 $ult_entradas = 'Últimas entradas';
 
-$que_hacemos = '404 ¿Página no encontrada?';
-$que_hacemos_text = '<p>Si no estás aún online, ¿a qué esperas? ¡Te estás perdiendo el siglo XXI enterito!</p>
-<p>Y es que da igual que tengas una tienda de perritos calientes o una editorial, lo que importa es que existas en la red.</p>
+$centrado_title = 'El blog personal ha vuelto.';
+$centrado_text = '<p>Escribimos y hacemos fotos porque sí, como en los albores de Internet.</p>
+<p>Artículos de opinión para cuando no podemos resistirnos a darla y fotografía<br> de lo cotidiano y lo extraordinario, que a menudo es lo mismo.</p>';
+
+$second_title = 'Aquí, en GLE...';
+
+$que_hacemos = '1. No somos sociales.';
+$que_hacemos_text = '<p></p>
+<p>No estamos en redes porque ya tenemos bastante con la vida real. Eso no significa que no nos guste hablar:</p>
 <p>
-  El 89% de los consumidores utiliza su teléfono móvil en tiendas para contrastar precios y consultar las reseñas de la gente.
-  Y no consulta solo los productos de la tienda, ¡compara con los de la competencia! Si no tienes página web, redes ni reseñas es lo mismo que si nadie hubiera probado tu producto o servicio nunca.
+  ¡escríbenos en el formulario o déjanos un comentario!
 </p>
 <p>
-  El consumidor de hoy es inteligente y le gusta saberlo todo antes de tomar una decisión.
-  Tú tienes justo lo que necesita, pero él no lo sabe. ¿Vas a perder la oportunidad de convencerlo?
+  Lo leemos y respondemos todo, hasta el spam.
 </p>';
 
-$que_hacemos2 = 'Pero «Encontrada» no basta';
-$que_hacemos_text2 = '<p>Tienes que hacerte dos preguntas: «¿puede mi potencial cliente encontrarme?» y «¿se quedará si me encuentra?»</p>
+$que_hacemos2 = '2. Nos da igual el SEO.';
+$que_hacemos_text2 = '
 <p>
-  Casi todo el mundo está ya en Google, pero una gran mayoría no tiene visibilidad.
-  Son muchas tiendas en una avenida muy larga.
-  (Y algunas muy feas, por cierto). Si quieres que te encuentren, necesitas una estrategia, SEO y contenidos.
+  No es que no queramos que nos encuentre Google, es que no vamos a escribir en función de las palabras clave de moda ahora.
 </p>
 <p>
-  Si un visitante te encuentra, tienes 2,3* segundos para convencerle de que se quede.
-  En tan poco tiempo necesitas causar una buena impresión, y rápido.
-  Un diseño atractivo, textos ágiles y que vayan al grano, cómo vas a ayudarle tú y solo tú, tanto como si vendes vestidos estampados como si tienes un alquiler de gatos de compañía.
-</p>
-<p>¿Y qué me dices de las redes? Pero no vamos a seguir extendiéndonos:<br> ya lo pillas.</p>';
+  Hacemos fotos y hablamos de lo que nos apetece en cada momento.
+</p>';
+
+$que_hacemos3 = '3. No buscamos embajadores, clientes o prosélitos.';
+$que_hacemos_text3 = '<p>Nos gusta gustarte, como a todo el mundo, pero no vamos a tratar de hacerte suscriptor, perseguirte con cadenas de emails automatizadas ni tratar de venderte nada.</p>';
 
 $getInTouch = 'Contacto';
 $getInTouch_text = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';

@@ -23,6 +23,12 @@
   font-size: 20px;
 } */
 
+.full-ancho-container {
+  background-image: url('../assets/images/wave-footer.svg');
+  padding: 20px 0 5px;
+  margin: 20px 0;
+}
+
 .quienessomos_text {
   padding: 0 15px;
   text-align: justify;

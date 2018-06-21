@@ -55,7 +55,6 @@
   <!-- <div class="hero-full-container background-image-container white-text-container"> -->
 
   <!-- data-vide-bg="<?//= isMobile() ? 'poster: vids/mtdark' : 'mp4: vids/mtdark, poster: vids/mtdark'?>" data-vide-options="posterType: jpg" -->
-
   <div id="vid" data-vide-bg="<?= myurl('assets/vids/mtdark') ?>" class="hero-full-container background-image-container white-text-container">
     <?php include "sections/portada.php" ?>
   </div>
@@ -68,9 +67,9 @@
   </div>
 
   <!-- Collapsible full width -->
-  <!-- <div class="section-container">
-    <?php // include "sections/collapsed.php" ?>
-  </div> -->
+  <div class="section-container">
+    <?php include "sections/fullancho.php" ?>
+  </div>
 
 
   <!-- Carousel proyectos -->

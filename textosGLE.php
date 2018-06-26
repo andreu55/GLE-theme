@@ -7,7 +7,8 @@ $nombre_plano = 'Google, luego existo';
 $descripcion = get_bloginfo('description', 'display');
 
 $contacto = 'Contacto';
-$ult_entradas = 'Últimas entradas';
+$ult_entradas = 'Últimos artículos';
+$ult_entradas_text = 'Nuestro contenido, de periodicidad tan indefinida como la posición-velocidad de un electrón:';
 
 $centrado_title = 'El blog personal ha vuelto.';
 $centrado_text = '<p>Escribimos y hacemos fotos porque sí, como en los albores de Internet.</p>
@@ -37,9 +38,6 @@ $que_hacemos_text2 = '
 $que_hacemos3 = '3. No buscamos embajadores, clientes o prosélitos.';
 $que_hacemos_text3 = '<p>Nos gusta gustarte, como a todo el mundo, pero no vamos a tratar de hacerte suscriptor, perseguirte con cadenas de emails automatizadas ni tratar de venderte nada.</p>';
 
-$getInTouch = 'Contacto';
-$getInTouch_text = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
-
 $escribenos = '¡Escríbenos aquí!';
 
 $send = 'Enviar';
@@ -65,55 +63,15 @@ $proyectos = [
     <p>WriterMuse es un centro de recursos, un blog y una página profesional, pero tiene una peculiaridad que lo hace único. Entre los dos creamos <b>un complejo sistema de emailing para ayudar a cada visitante con su problema específico</b>, porque cada persona es un mundo, pero cada escritor es todo un universo.</p>
     <p>(Marta): Este es mi proyecto personal, algo en lo que creo a pies juntillas: la creatividad es para todos y la escritura puede volver a ser un placer, con las herramientas adecuadas.</p>',
     'url' => 'https://writermuse.es'
-  ],[
-    'titulo' => 'Cuentónomo',
-    'modal_id' => 'cuentonomo',
-    'active' => 0,
-    'img' => 'cuentonomo.png',
-    'descr' => '<p>Cuentónomo es un proyecto personal que empezó como una aplicación sencilla para contar los ingresos y los gastos que teníamos como autónomos y calcular automáticamente los desgraves y lo que había que ingresar de IVA cada trimestre. </p>
-    <p>(Andreu): Algunos amigos que la vieron me dijeron que estaba muy bien y que por qué no la ofrecía al público, así que la adapté para que empleara una base de datos e hice los cambios necesarios para que pudieran trabajar en ella múltiples usuarios.</p>
-    <p>Cada día se nos ocurren cosas nuevas que Cuentónomo podría incluir para hacernos la vida más fácil. A eso nos dedicamos los programadores, al fin y al cabo, y siempre que algún compañero viene con una nueva idea trato de encontrar tiempo para implantarla.</p>
-    <p><b>Aunque es una app súper útil, sin duda el consenso es que el logo es lo mejor de la aplicación.</b></p>',
-    'url' => 'https://cuentonomo.com'
-  ],[
-    'titulo' => 'Instituto Valenciano de Terapias Naturales',
-    'modal_id' => 'ivatena',
-    'active' => 0,
-    'img' => 'ivatena.jpg',
-    'descr' => '<p>El Instituto Valenciano de Terapias Naturales contaba con una página web desde hacía años, pero sabía que no le estaba sacando el máximo provecho. Por otro lado, aunque publicaba semanalmente, su equipo de redactores trabajaba sin una guía de estilo ni una <b>estrategia de contenidos definida que les ayudara a orientar las publicaciones a una venta concreta.</b></p>
-    <p>Contactaron con nosotros para que revisáramos juntos la web, para detectar dónde podría mejorar y adecuarse mejor a sus necesidades actuales: limpiamos los menús para facilitar la navegación, añadimos secciones bajo cada formación para que el lector no tuviera que rastrear la información y enfatizamos los beneficios para que el cliente potencial quisiera acceder a sus servicios. Hoy son el centro más importante de Valencia en formación de terapias naturales, con más de 40 profesionales trabajando con ellos.</p>',
-    'url' => 'http://www.institutovalencianodeterapiasnaturales.com/'
-  ],[
-    'titulo' => 'Taxo Valoración',
-    'modal_id' => 'taxo',
-    'active' => 0,
-    'img' => 'taxo.png',
-    'descr' => '<p>Taxo Valoración necesitaba <b>renovarse y cambiar las aplicaciones viejas de gestión por unas nuevas y más efectivas</b>, no solo para la empresa sino también para los clientes externos, pero hasta que presentamos las nuevas apps transcurrió un periodo oscuro en que el trabajo de programación consistió sobre todo en deshacer marañas de código y solucionar líos.</p>
-    <p>Taxo es ahora uno de nuestros principales clientes, y actualmente gestionamos dos proyectos con ellos con nombre en código molón: Delfos y Ulises. Delfos es una aplicación web de gestión interna desde la cual los encargados de personal llevan a cabo búsquedas de tasadores y consultas de documentos. Y Ulises… es todavía secreto, pero está pensado para ser un programa tan inteligente como su epónimo mitológico.</p>',
-    'url' => 'https://taxo.es'
-  ],[
-    'titulo' => 'The Body Massamagrell',
-    'modal_id' => 'the_body_massamagrell',
-    'active' => 0,
-    'img' => 'thebody_m.jpg',
-    'descr' => '<p>The Body Massamagrell es un centro de entrenamiento con electroestimulación, una modalidad que incorpora aparatos de EMS para simular un ejercicio mucho más intenso en solo 20 minutos. María quería que su público objetivo la encontrara y que conocieran lo que es la electroestimulación, y para ello iniciamos una campaña de publicidad en redes.</p>
-    <p>Para lograrlo, empezamos a crear contenido útil, viral y que reflejara sus valores: salud, deporte y bienestar en una época en que el tiempo es escaso y preciado, y también sorteos y promociones que dieran a conocer su centro a miles de personas que nunca habían pasado por delante.</p>
-    <p>Hoy María ha renovado su cartera de clientes, y los fieles hablan de ella en redes y en la calle. Desde Facebook ha conseguido conquistar su pueblo y hacer que pruebe la electroestimulación hasta la señora Puri de la panadería: es nuestro ejemplo preferido de que <b>todo el mundo puede utilizar internet para hacer crecer su negocio, hasta un negocio unipersonal como el de María.</b></p>',
-    'url' => 'https://www.facebook.com/bodymassamagrell'
-  ],[
-    'titulo' => 'TAGDisruptor',
-    'modal_id' => 'tagdisruptor',
-    'active' => 0,
-    'img' => 'tagdisruptor.jpg',
-    'descr' => '<p>TAGDisruptor es una empresa valenciana de estética con un sistema innovador para la reducción de grasa localizada. Pero innovador de verdad, ¿eh? Te lo aplicas tú mismo en 5 min.</p>
-    <p>José Luís y Alfredo tenían un producto rompedor, pero no sabían cómo moverlo online para darse a conocer. Tenían algo muy guay pero ningún tipo de publicidad, contenido o testimonio que creara autoridad y confianza en el usuario.</p>
-    <p>Empezamos una <b>campaña de marketing con influencers y a crear contenido para sus redes sociales</b>, y ahora han conseguido expandirse hasta contar con más de 40 franquiciados y 6 distribuciones en el extranjero. El mérito de la idea es todo suyo, pero el de la imagen online es nuestro (y no tenemos abuela).</p>',
-    'url' => 'https://tagdisruptor.com'
   ]
 ];
 
+$fullancho = 'Fotografía';
+$fullancho_text = 'Hacemos fotos para nosotros, pero nos encanta compartirlas, te dejamos usar nuestras fotos hasta para empapelar las paredes de tu casa y no hace falta que nos cites a cada invitado que tengas.';
+
 $quienes_somos = 'Nosotros';
-$quienes_somos_text = 'Escritora y programador. Desarrollador web y copywriter. Palabras y código.<br> Los opuestos se atraen y se complementan para montar tu escaparate online soñado.';
+$quienes_somos_text = 'De vez en cuando puede que entremos en terreno personal, pero no te vamos a contar nuestros viajes<br> ni los inventos que hacemos en la cocina porque nuestro yo digital es una cosa y nosotros como personas, otra.<br>Si te pasas por Valencia y quieres un café, nos conoceremos de verdad.';
+// Escritora y programador. Desarrollador web y copywriter. Palabras y código.<br> Los opuestos se atraen y se complementan para montar tu escaparate online soñado.
 
 // Quienes somos
 $nosotros = [
@@ -152,8 +110,8 @@ $nosotros = [
     'img' => 'andreu.png',
     'img-mobile' => 'andreu-abajo.png',
     'alt' => 'Andreu Garcia',
-    'funcion' => 'Full Stack Developer',
-    'descr' => 'A Andreu le encanta solucionar problemas y dar con la manera óptima y exacta de hacer algo, y no deja en paz una página web hasta que todos los recursos han sido optimizados al máximo (lo cual a veces desespera a Marta). Típico cerebro de hemisferio izquierdo dominante, lógico y racional... hasta que lo conoces. Bailongo, culo inquieto y apasionado de la música electrónica, querría tener su propio huerto urbano pero se le mueren hasta los tomates cherry.',
+    'funcion' => 'Full Stack Developer & Fotógrafo',
+    'descr' => 'A Andreu le encanta solucionar problemas y dar con la manera óptima y exacta de hacer algo, y no deja en paz una página web hasta que todos los recursos han sido optimizados al máximo (lo cual a veces desespera a Marta). Típico cerebro de hemisferio izquierdo dominante, lógico y racional... hasta que lo conoces. Bailongo, culo inquieto y apasionado de la fotografía, querría tener su propio huerto urbano pero se le mueren hasta los tomates cherry.',
     'botonacos' => [
       [
         'texto' => 'Visitar <b>andreugarcia.com</b>',
@@ -164,17 +122,23 @@ $nosotros = [
       [
         'icon' => 'fab fa-linkedin-in',
         'url' => 'https://www.linkedin.com/in/andreugarcia-com'
+      ],[
+        'icon' => 'fab fa-paypal',
+        'url' => 'https://www.paypal.me/anduwet/0.85'
       ]
       // ,[
-      //   'icon' => 'fab fa-twitter',
-      //   'url' => 'https://twitter.com/andreu55'
-      // ],[
       //   'icon' => 'fab fa-facebook-f',
       //   'url' => 'https://www.facebook.com/anduwet'
       // ]
     ]
   ]
 ];
+
+$subscribe = 'Suscribirse';
+$subscribe_text = 'Si quieres seguirnos en nuestras variopintas aventuras, suscríbete y recibirás, en exclusiva y solo para ti,<br> totalmente gratis, sin gato encerrado, un email de vez en cuando avisándote de que hay una nueva publicación. <br>Eso es todo.';
+
+// $getInTouch = 'Contacto';
+// $getInTouch_text = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
 
 $testimonios = [
   [

@@ -1,10 +1,10 @@
 <div class="section-container-spacer">
   <h2 class="text-center">
     <i class="far fa-paper-plane fa-fw"></i>
-    <?= $getInTouch ?>
+    <?= $subscribe ?>
   </h2>
   <p class="text-center">
-    <?= $getInTouch_text ?>
+    <?= $subscribe_text ?>
   </p>
 </div>
 <div class="card-container">

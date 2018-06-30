@@ -27,16 +27,8 @@
   <meta name="author" content="Andreu y Marta">
   <meta name="google" content="notranslate" />
   <meta name="msapplication-tap-highlight" content="no">
-
-  <link rel="icon" href="<?= $baseUrl ?>/wp-content/uploads/<?= $favicon ?>-32x32.png" sizes="32x32" />
-  <link rel="icon" href="<?= $baseUrl ?>/wp-content/uploads/<?= $favicon ?>-192x192.png" sizes="192x192" />
-  <link rel="apple-touch-icon-precomposed" href="<?= $baseUrl ?>/wp-content/uploads/<?= $favicon ?>-180x180.png" />
-  <meta name="msapplication-TileImage" content="<?= $baseUrl ?>/wp-content/uploads/<?= $favicon ?>-270x270.png" />
-
-  <!-- la funcion de WordPress -->
-  <?php echo wp_site_icon() ?>
-
-  <!-- la funcion de WordPress sin echo -->
+  
+  <!-- la funcion de WordPress para inprimir los favicons -->
   <?php wp_site_icon() ?>
 
   <meta name="description" content="<?= $descripcion ?>">

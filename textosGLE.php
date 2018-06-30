@@ -42,28 +42,37 @@ $escribenos = '¡Escríbenos aquí!';
 
 $send = 'Enviar';
 
-$proyectos_title = 'Proyectos';
-$proyectos_text = 'Hemos decorado el escaparate digital de todas estas empresas:';
+$slides_title = '¿De qué va esto?';
+// $slides_text = 'Hemos decorado el escaparate digital de todas estas empresas:';
 
-$proyectos = [
+$slides = [
   [
-    'titulo' => 'Afactys',
-    'modal_id' => 'afactys',
+    'titulo' => 'Artículos de opinión',
+    'id' => 'slide_opinion',
     'active' => 1,
-    'img' => 'afactys.jpg',
-    'descr' => '<p>Afactys es una red social para profesionales del arte, especialmente del mundo dramático, para que pudieran promocionar su porfolio y entablar relaciones sociales y de trabajo con artistas y mánagers. La compañía empezó como un proyecto entre amigos, una idea de pequeña envergadura que creció y creció y que acabó consiguiendo <b>financiación del Ministerio de Cultura para promover el trabajo de los actores.</b></p>
-      <p>(Andreu): Cuando ahora me frustro intentando hacer cosas nuevas, me acuerdo de que cuando empecé con Afactys no sabía nada y tenía que consultar la documentación hasta para mandar un formulario. Era frustrante, pero también muy satisfactorio. Programé todo Afactys, desde la validación de los correos hasta la estructura de la base de datos, y por eso le tengo un cariño especial.</p>',
-    'url' => 'https://afactys.com'
+    'img' => 'opinion.jpeg',
+    'descr' => '<p>Escribimos sobre todo tipo de temas: marketing, programación, videojuegos, redes sociales, literatura, sociedad, tecnología, gatos... </p>
+      <p>Marta tiene un negocio online orientado a la creatividad y la lectura crítica para escritores, WriterMuse, además de trabajar como copywriter y asesora de marketing para el Instituto Valenciano de Terapias Naturales. Con estos dos proyectos no tiene bastante: necesita un espacio donde poder desahogarse sobre estos temas que no la dejan dormir, como la manera de vengarse del periquito que la despierta a las tres de la mañana.</p>
+      <p>Este no es un blog que busca responder a las preguntas de los lectores y convertirse en una autoridad de su nicho. Aquí se habla de lo que sea, como en la sobremesa en casa de tus tíos (a veces también con un chupito de mistela, o lo que se beba en tu región).</p>',
+    'url' => ''
   ],[
-    'titulo' => 'WriterMuse',
-    'modal_id' => 'writermuse',
+    'titulo' => 'Fotografía',
+    'id' => 'slide_fotografia',
     'active' => 0,
-    'img' => 'writermuse.jpg',
-    'descr' => '<p>WriterMuse es una plataforma para escritores noveles donde encontrar todo tipo de recursos de escritura y creatividad, y donde Marta ofrece sus servicios como correctora y asesora literaria.</p>
-    <p>WriterMuse es un centro de recursos, un blog y una página profesional, pero tiene una peculiaridad que lo hace único. Entre los dos creamos <b>un complejo sistema de emailing para ayudar a cada visitante con su problema específico</b>, porque cada persona es un mundo, pero cada escritor es todo un universo.</p>
-    <p>(Marta): Este es mi proyecto personal, algo en lo que creo a pies juntillas: la creatividad es para todos y la escritura puede volver a ser un placer, con las herramientas adecuadas.</p>',
-    'url' => 'https://writermuse.es'
+    'img' => 'fotografia.jpeg',
+    'descr' => '<p>Para Andreu, la fotografía es el arte de transmitir la esencia de los momentos y las situaciones a través de  una imagen.</p>
+    <p>Para Marta es una excusa para moverse un poco y entrar en lugares que están normalmente vedados.</p>
+    <p>Todas las fotografías que subimos en nuestros artículos están registradas bajo la licencia Creative Commons*: puedes utilizarlas con cualquier fin en tus proyectos. Nos gusta que lo que hacemos solo para nosotros también pueda servir a los demás. </p>',
+    'url' => ''
   ]
+  // ,[
+  //   'titulo' => 'Nosotros',
+  //   'id' => 'slide_2',
+  //   'active' => 0,
+  //   'img' => 'writermuse.jpg',
+  //   'descr' => '<p>De vez en cuando puede que entremos en terreno personal, pero no te vamos a contar nuestros viajes ni los inventos que hacemos en la cocina porque nuestro yo digital es una cosa y nosotros como personas, otra. Si te pasas por Valencia y quieres un café, nos conoceremos de verdad.</p>',
+  //   'url' => 'https://writermuse.es'
+  // ]
 ];
 
 $fullancho = 'Fotografía';

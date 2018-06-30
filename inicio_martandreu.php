@@ -3,20 +3,13 @@
   * Template Name: Google, luego existo
   */
 
+  require_once "textosGLE.php";
+  require_once "assets/funciones.php";
+
   // $url = get_bloginfo('url');
   // $url = bloginfo('template_directory');
-
   $baseUrl = get_bloginfo('url');
-
-  function myurl($str) {
-    if ($str[0] != '/') {
-      $str = '/'.$str;
-    }
-    return bloginfo('template_directory').$str;
-  }
-
-  require_once "textosGLE.php";
-
+  $favicon = '2018/06/cropped-logo';
 ?>
 
 <!DOCTYPE html>
@@ -26,17 +19,26 @@
   <meta name="viewport" content="width=device-width">
   <link rel="profile" href="http://gmpg.org/xfn/11">
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+  <!--[if lt IE 9]>
+	<script src="<?php echo esc_url( get_template_directory_uri() ); ?>/js/html5.js"></script>
+	<![endif]-->
 
   <meta content="IE=edge" http-equiv="X-UA-Compatible">
   <meta name="author" content="Andreu y Marta">
   <meta name="google" content="notranslate" />
   <meta name="msapplication-tap-highlight" content="no">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="assets/apple-icon-180x180.png">
-  <link rel="icon" href="<?= $baseUrl ?>/wp-content/uploads/2018/03/cropped-logo-3-32x32.png" sizes="32x32" />
-  <link rel="icon" href="<?= $baseUrl ?>/wp-content/uploads/2018/03/cropped-logo-3-192x192.png" sizes="192x192" />
-  <link rel="apple-touch-icon-precomposed" href="<?= $baseUrl ?>/wp-content/uploads/2018/03/cropped-logo-3-180x180.png" />
-  <meta name="msapplication-TileImage" content="<?= $baseUrl ?>/wp-content/uploads/2018/03/cropped-logo-3-270x270.png" />
+  <link rel="icon" href="<?= $baseUrl ?>/wp-content/uploads/<?= $favicon ?>-32x32.png" sizes="32x32" />
+  <link rel="icon" href="<?= $baseUrl ?>/wp-content/uploads/<?= $favicon ?>-192x192.png" sizes="192x192" />
+  <link rel="apple-touch-icon-precomposed" href="<?= $baseUrl ?>/wp-content/uploads/<?= $favicon ?>-180x180.png" />
+  <meta name="msapplication-TileImage" content="<?= $baseUrl ?>/wp-content/uploads/<?= $favicon ?>-270x270.png" />
+
+  <!-- la funcion de WordPress -->
+  <?php echo wp_site_icon() ?>
+
+  <!-- la funcion de WordPress sin echo -->
+  <?php wp_site_icon() ?>
+
   <meta name="description" content="<?= $descripcion ?>">
   <title><?= $nombre_plano ?></title>
 
@@ -54,8 +56,7 @@
 
   <!-- <div class="hero-full-container background-image-container white-text-container"> -->
 
-  <!-- data-vide-bg="<?//= isMobile() ? 'poster: vids/mtdark' : 'mp4: vids/mtdark, poster: vids/mtdark'?>" data-vide-options="posterType: jpg" -->
-  <div id="vid" data-vide-bg="<?= myurl('assets/vids/mtdark') ?>" class="hero-full-container background-image-container white-text-container">
+  <div id="vid" data-vide-bg="<?= get_vide_url() ?>" data-vide-options="posterType: jpg" class="hero-full-container background-image-container white-text-container">
     <?php include "sections/portada.php" ?>
   </div>
 
@@ -72,16 +73,16 @@
   </div>
 
 
-  <!-- Carousel proyectos -->
-  <!-- <div class="section-container">
+  <!-- Slides -->
+  <div class="section-container">
     <div class="container">
       <div class="row">
         <div class="col-xs-12">
-          <?php // include "sections/proyectos.php" ?>
+          <?php include "sections/slides.php" ?>
         </div>
       </div>
     </div>
-  </div> -->
+  </div>
 
   <!-- Quienes somos -->
   <div class="section-container">

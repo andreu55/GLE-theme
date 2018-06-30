@@ -1,8 +1,8 @@
 
 <div class="row section-container-spacer">
   <div class="col-xs-12 col-md-12">
-    <h2><?= $proyectos_title ?></h2>
-    <?= $proyectos_text ?>
+    <h2><?= $slides_title ?></h2>
+    <?= $slides_text ?? '' ?>
   </div>
 </div>
 
@@ -10,9 +10,9 @@
 <div id="carousel-proyectos" class="carousel carousel-fade slide" data-ride="carousel">
   <div class="carousel-inner" role="listbox">
 
-    <?php foreach ($proyectos as $c): ?>
+    <?php foreach ($slides as $c): ?>
 
-      <div class="item fixed-proyectos <?= $c['active'] ? 'active' : '' ?>">
+      <div id="<?= $c['id'] ? 'active' : '' ?>" class="item fixed-proyectos <?= $c['active'] ? 'active' : '' ?>">
         <img class="img-responsive card-shadow" src="<?= myurl('assets/images/') ?><?= $c['img'] ?>" alt="<?= $c['titulo'] ?> imagen">
         <div class="carousel-caption card-shadow reveal">
           <h3><?= $c['titulo'] ?></h3>
@@ -27,9 +27,11 @@
           <div class="descripcion">
             <?= $c['descr'] ?>
           </div>
-          <a href="<?= $c['url'] ?>" target="_blank" rel="nofollow" class="btn btn-primary" title="<?= $c['titulo'] ?>">
-            Visitar su web
-          </a>
+          <?php if ($c['url']): ?>
+            <a href="<?= $c['url'] ?>" target="_blank" rel="nofollow" class="btn btn-primary" title="<?= $c['titulo'] ?>">
+              Visitar su web
+            </a>
+          <?php endif; ?>
         </div>
       </div>
 

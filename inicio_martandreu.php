@@ -30,8 +30,8 @@
   <meta name="description" content="<?= $descripcion ?>">
   <title><?= $nombre_plano ?></title>
 
-  <link href="https://use.fontawesome.com/releases/v5.0.12/css/all.css" rel="stylesheet" integrity="sha384-G0fIWCsCzJIMAVNQPfjH08cyYaUtMwjJwqiRKxxE/rx96Uroj1BtIQ6MLJuheaO9" crossorigin="anonymous">
-  <link href="https://fonts.googleapis.com/css?family=Hind+Siliguri:300,600|Nothing+You+Could+Do" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hind+Siliguri:300,600|Nothing+You+Could+Do">
 
   <link href="<?= myurl('css/loader.php') ?>" rel="stylesheet">
 </head>

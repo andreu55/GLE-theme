@@ -38,12 +38,25 @@ $que_hacemos_text2 = '
 $que_hacemos3 = '3. No buscamos embajadores, clientes o prosélitos.';
 $que_hacemos_text3 = '<p>Nos gusta gustarte, como a todo el mundo, pero no vamos a tratar de hacerte suscriptor, perseguirte con cadenas de emails automatizadas ni tratar de venderte nada.</p>';
 
-$escribenos = '¡Escríbenos aquí!';
+// $escribenos = '¡Escríbenos aquí!';
+// $send = 'Enviar';
 
-$send = 'Enviar';
-
-$slides_title = '¿De qué va esto?';
+$slides_title = '<i class="far fa-question-circle"></i> ¿De qué va esto?';
 // $slides_text = 'Hemos decorado el escaparate digital de todas estas empresas:';
+
+
+$fullancho = '<i class="fas fa-fw fa-camera-retro"></i> Fotografía';
+$fullancho_text = 'Hacemos fotos para nosotros, pero nos encanta compartirlas, te dejamos usar nuestras fotos hasta para empapelar las paredes de tu casa y no hace falta que nos cites a cada invitado que tengas.';
+
+$quienes_somos = '<i class="fas fa-fw fa-balance-scale"></i> Nosotros';
+$quienes_somos_text = 'De vez en cuando puede que entremos en terreno personal, pero no te vamos a contar nuestros viajes<br> ni los inventos que hacemos en la cocina porque nuestro yo digital es una cosa y nosotros como personas, otra.<br>Si te pasas por Valencia y quieres un café, nos conoceremos de verdad.';
+// Escritora y programador. Desarrollador web y copywriter. Palabras y código.<br> Los opuestos se atraen y se complementan para montar tu escaparate online soñado.
+
+$subscribe = '<i class="far fa-paper-plane fa-fw"></i> Suscribirse';
+$subscribe_text = 'Si quieres seguirnos en nuestras variopintas aventuras, suscríbete y recibirás, en exclusiva y solo para ti, totalmente gratis, sin gato encerrado, un email de vez en cuando avisándote de que hay una nueva publicación. <b>Eso es todo</b> <i class="far fa-kiss-wink-heart"></i>.';
+
+// $getInTouch = 'Contacto';
+// $getInTouch_text = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
 
 $slides = [
   [
@@ -74,13 +87,6 @@ $slides = [
   //   'url' => 'https://writermuse.es'
   // ]
 ];
-
-$fullancho = 'Fotografía';
-$fullancho_text = 'Hacemos fotos para nosotros, pero nos encanta compartirlas, te dejamos usar nuestras fotos hasta para empapelar las paredes de tu casa y no hace falta que nos cites a cada invitado que tengas.';
-
-$quienes_somos = 'Nosotros';
-$quienes_somos_text = 'De vez en cuando puede que entremos en terreno personal, pero no te vamos a contar nuestros viajes<br> ni los inventos que hacemos en la cocina porque nuestro yo digital es una cosa y nosotros como personas, otra.<br>Si te pasas por Valencia y quieres un café, nos conoceremos de verdad.';
-// Escritora y programador. Desarrollador web y copywriter. Palabras y código.<br> Los opuestos se atraen y se complementan para montar tu escaparate online soñado.
 
 // Quienes somos
 $nosotros = [
@@ -142,12 +148,6 @@ $nosotros = [
     ]
   ]
 ];
-
-$subscribe = 'Suscribirse';
-$subscribe_text = 'Si quieres seguirnos en nuestras variopintas aventuras, suscríbete y recibirás, en exclusiva y solo para ti,<br> totalmente gratis, sin gato encerrado, un email de vez en cuando avisándote de que hay una nueva publicación. <br>Eso es todo.';
-
-// $getInTouch = 'Contacto';
-// $getInTouch_text = 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.';
 
 $testimonios = [
   [

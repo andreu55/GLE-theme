@@ -10,7 +10,7 @@
 
             <p class="thanks hidden-xs">
               <small>
-                Thanks to <a href="http://www.mashup-template.com/" target="_blank" rel="nofollow" title="Create website with free html template">Mashup Template</a>/<a href="https://www.unsplash.com/" target="_blank" rel="nofollow">Unsplash</a> for this template! <i class="far fa-heart fa-fw"></i>
+                Thanks to <a href="http://www.mashup-template.com/" target="_blank" rel="nofollow" title="Create website with free html template">Mashup Template</a> for this template! <i class="far fa-heart fa-fw"></i>
               </small>
             </p>
           </div>

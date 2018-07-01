@@ -22,6 +22,7 @@ function execPrint($command) {
 <!-- // Print the exec output inside of a pre element -->
 <pre><?php execPrint("git pull https://github.com/andreu55/GLE-theme.git master"); ?></pre>
 <h2>Completado!</h2>
+<h1><a href="https://googleluegoexisto.com/">Ir a la página</a></h1>
 </div>
 </body>
 </html>

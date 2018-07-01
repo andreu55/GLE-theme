@@ -50,7 +50,7 @@ $slides = [
     'titulo' => 'Artículos de opinión',
     'id' => 'slide_opinion',
     'active' => 1,
-    'img' => 'opinion.jpeg',
+    'img' => 'opinion.jpg',
     'descr' => '<p>Escribimos sobre todo tipo de temas: marketing, programación, videojuegos, redes sociales, literatura, sociedad, tecnología, gatos... </p>
       <p>Marta tiene un negocio online orientado a la creatividad y la lectura crítica para escritores, WriterMuse, además de trabajar como copywriter y asesora de marketing para el Instituto Valenciano de Terapias Naturales. Con estos dos proyectos no tiene bastante: necesita un espacio donde poder desahogarse sobre estos temas que no la dejan dormir, como la manera de vengarse del periquito que la despierta a las tres de la mañana.</p>
       <p>Este no es un blog que busca responder a las preguntas de los lectores y convertirse en una autoridad de su nicho. Aquí se habla de lo que sea, como en la sobremesa en casa de tus tíos (a veces también con un chupito de mistela, o lo que se beba en tu región).</p>',
@@ -59,7 +59,7 @@ $slides = [
     'titulo' => 'Fotografía',
     'id' => 'slide_fotografia',
     'active' => 0,
-    'img' => 'fotografia.jpeg',
+    'img' => 'fotografia.jpg',
     'descr' => '<p>Para Andreu, la fotografía es el arte de transmitir la esencia de los momentos y las situaciones a través de  una imagen.</p>
     <p>Para Marta es una excusa para moverse un poco y entrar en lugares que están normalmente vedados.</p>
     <p>Todas las fotografías que subimos en nuestros artículos están registradas bajo la licencia Creative Commons*: puedes utilizarlas con cualquier fin en tus proyectos. Nos gusta que lo que hacemos solo para nosotros también pueda servir a los demás. </p>',

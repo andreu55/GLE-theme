@@ -21,12 +21,13 @@
     // $baseUrl = get_bloginfo('url');
 
     // Direccion del theme
-    $vide_url = get_bloginfo('template_directory') . "/assets/vids/mtdark";
-    // echo $vide_url; exit();
+    $vid_url = get_bloginfo('template_directory') . "/assets/vids/mtdark";
+    $img_url = get_bloginfo('template_directory') . "/assets/images/fotografia";
+    // echo $vid_url; exit();
 
     if (isMobile()) {
-      return 'poster: ' . $vide_url;
+      return 'poster: ' . $img_url;
     } else {
-      return 'mp4: ' . $vide_url . ', poster: '. $vide_url;
+      return 'mp4: ' . $vid_url . ', poster: '. $img_url;
     }
   }

@@ -8,11 +8,6 @@
     return bloginfo('template_directory').$str;
   }
 
-  function asset_url($str) {
-    // wp-content/themes/GLE-theme"
-    return "wp-content/themes/GLE-theme/assets/" . $str;
-  }
-
   function isMobile() {
 
     $useragent = $_SERVER['HTTP_USER_AGENT'];
@@ -22,7 +17,11 @@
 
   function get_vide_url() {
 
-    $vide_url = asset_url('vids/mtdark');
+    // Direccion base de la pagina
+    // $baseUrl = get_bloginfo('url');
+
+    // Direccion del theme
+    $vide_url = get_bloginfo('template_directory') . "/assets/vids/mtdark";
     // echo $vide_url; exit();
 
     if (isMobile()) {

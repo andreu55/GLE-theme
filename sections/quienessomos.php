@@ -7,8 +7,8 @@
 <div class="row">
   <?php foreach ($nosotros as $u): ?>
     <div class="col-xs-12 col-sm-6">
-      <img src="<?= myurl('assets/images/') ?><?= $u['img'] ?>" alt="<?= $u['alt'] ?>" class="hidden-xs reveal img-responsive reveal-content image-center">
-      <img src="<?= myurl('assets/images/') ?><?= $u['img-mobile'] ?>" alt="<?= $u['alt'] ?>" class="visible-xs img-responsive image-center">
+      <img src="<?= myurl('assets/images/loading.gif') ?>" data-src="<?= myurl('assets/images/') ?><?= $u['img'] ?>" alt="<?= $u['alt'] ?>" class="hidden-xs reveal img-responsive reveal-content image-center">
+      <img src="<?= myurl('assets/images/loading.gif') ?>" data-src="<?= myurl('assets/images/') ?><?= $u['img-mobile'] ?>" alt="<?= $u['alt'] ?>" class="visible-xs img-responsive image-center">
       <h3><?= $u['nombre'] ?></h3>
       <h4><b><?= $u['funcion'] ?></b></h4>
       <p class="quienessomos_text">

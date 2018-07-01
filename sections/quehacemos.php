@@ -21,7 +21,7 @@
     </div>
   </div>
   <div class="col-sm-7">
-    <img class="img-responsive img-molona img-molona1" src="<?= myurl('assets/images/section1-1.jpg') ?>" alt="<?= $que_hacemos ?>">
+    <img class="img-responsive img-molona img-molona1" src="<?= myurl('assets/images/loading.gif') ?>" data-src="<?= myurl('assets/images/section1-1.jpg') ?>" alt="<?= $que_hacemos ?>">
   </div>
 </div>
 
@@ -29,7 +29,7 @@
 
 <div class="row" style="padding:3em 0">
   <div class="col-sm-7">
-    <img class="img-responsive img-molona img-molona2" src="<?= myurl('assets/images/section1-2.jpg') ?>" alt="<?= $que_hacemos2 ?>">
+    <img class="img-responsive img-molona img-molona2" src="<?= myurl('assets/images/loading.gif') ?>" data-src="<?= myurl('assets/images/section1-2.jpg') ?>" alt="<?= $que_hacemos2 ?>">
   </div>
   <div class="col-sm-5">
     <h2 class="text-center" style="margin:25px 0"><?= $que_hacemos2 ?></h2>
@@ -49,6 +49,6 @@
     </div>
   </div>
   <div class="col-sm-7">
-    <img class="img-responsive img-molona img-molona3" src="<?= myurl('assets/images/section1-3.jpg') ?>" alt="<?= $que_hacemos2 ?>">
+    <img class="img-responsive img-molona img-molona3" src="<?= myurl('assets/images/loading.gif') ?>" data-src="<?= myurl('assets/images/section1-3.jpg') ?>" alt="<?= $que_hacemos2 ?>">
   </div>
 </div>

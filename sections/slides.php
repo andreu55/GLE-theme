@@ -13,7 +13,7 @@
     <?php foreach ($slides as $c): ?>
 
       <div id="<?= $c['id'] ? 'active' : '' ?>" class="item fixed-proyectos <?= $c['active'] ? 'active' : '' ?>">
-        <img class="img-responsive card-shadow" src="<?= myurl('assets/images/') ?><?= $c['img'] ?>" alt="<?= $c['titulo'] ?> imagen">
+        <img class="img-responsive card-shadow" src="<?= myurl('assets/images/loading.gif') ?>" data-src="<?= myurl('assets/images/') ?><?= $c['img'] ?>" alt="<?= $c['titulo'] ?> imagen">
         <div class="carousel-caption card-shadow reveal">
           <h3><?= $c['titulo'] ?></h3>
           <a class="left carousel-control" href="#carousel-proyectos" role="button" data-slide="prev">

@@ -8,6 +8,9 @@
  * @subpackage Twenty_Fifteen
  * @since Twenty Fifteen 1.0
  */
+
+ $baseUrl = get_bloginfo('url');
+
 ?>
 
 	</div><!-- .site-content -->
@@ -17,9 +20,9 @@
 			<h3>Google, luego existo</h3>
 			<br>
 			<ul>
-				<li><a href="<?= bloginfo('template_directory') ?>/aviso-legal">Aviso Legal</a></li>
-				<li><a href="<?= bloginfo('template_directory') ?>/politica-de-privacidad">Política de privacidad</a></li>
-				<li><a href="<?= bloginfo('template_directory') ?>/politica-de-cookies">Política de cookies</a></li>
+				<li><a href="<?= $baseUrl ?>/aviso-legal">Aviso Legal</a></li>
+				<li><a href="<?= $baseUrl ?>/politica-de-privacidad">Política de privacidad</a></li>
+				<li><a href="<?= $baseUrl ?>/politica-de-cookies">Política de cookies</a></li>
 			</ul>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->

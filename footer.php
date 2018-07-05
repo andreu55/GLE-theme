@@ -14,11 +14,12 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
+			<h3>Google, luego existo</h3>
+			<br>
 			<ul>
-				<li><a href="#">El footer (:</a></li>
-				<li><a href="#">El footer (:</a></li>
-				<li><a href="#">El footer (:</a></li>
-				<li><a href="#">El footer (:</a></li>
+				<li><a href="<?= bloginfo('template_directory') ?>/aviso-legal">Aviso Legal</a></li>
+				<li><a href="<?= bloginfo('template_directory') ?>/politica-de-privacidad">Política de privacidad</a></li>
+				<li><a href="<?= bloginfo('template_directory') ?>/politica-de-cookies">Política de cookies</a></li>
 			</ul>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->

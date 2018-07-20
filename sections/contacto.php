@@ -9,9 +9,12 @@
       <p class="text-center">
         <?= $subscribe_text ?>
       </p>
-    </div>
-    <div class="col-md-8 col-md-offset-2">
-      <?php es_subbox($namefield = "YES", $desc = "", $group = "Public"); ?>
+      <br>
+      <div class="col-md-8 col-md-offset-2">
+        <a href="<?= $baseUrl ?>/suscribirse" target="_blank" rel="nofollow" class="btn btn-primary btn-block">
+          Suscribirse
+        </a>
+      </div>
     </div>
   </div>
   <div class="card-image col-xs-12 card-shadow hidden-xs" id="contact-img"></div>

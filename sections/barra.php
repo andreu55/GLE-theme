@@ -6,11 +6,11 @@
       <div class="navbar-header">
 
         <!-- Este el boton que sale en la versión movil! -->
-        <a href="#contacto" class="btn btn-default navbar-btn navbar-toggle collapsed pull-right" title="¡Contacta con nosotros!"><?= $contacto ?></a>
+        <a href="<?= $baseUrl ?>/contacto" class="btn btn-default navbar-btn navbar-toggle collapsed pull-right" title="¡Contacta con nosotros!"><?= $contacto ?></a>
 
         <a class="navbar-brand" href="<?= home_url( '/' ); ?>">
           <?php // twentyfifteen_the_custom_logo(); ?>
-          <img src="<?= myurl('assets/images/logo.png') ?>" class="navbar-logo-img" logo">
+          <img src="<?= myurl('assets/images/logo.png') ?>" class="navbar-logo-img logo">
           &nbsp;
           <?= $nombre ?>
         </a>
@@ -29,7 +29,7 @@
           <li><p>
 
             <!-- Este el el boton que sale en la version esritorio! -->
-            <a href="#contacto" class="btn btn-default navbar-btn" title="¡Contacta con nosotros!"><?= $contacto ?></a>
+            <a href="<?= $baseUrl ?>/contacto" class="btn btn-default navbar-btn" title="¡Contacta con nosotros!"><?= $contacto ?></a>
           </p></li>
         </ul>
       </div>

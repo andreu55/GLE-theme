@@ -20,9 +20,10 @@
 			<h3>Google, luego existo</h3>
 			<br>
 			<ul>
-				<li><a href="<?= $baseUrl ?>/aviso-legal">Aviso Legal</a></li>
-				<li><a href="<?= $baseUrl ?>/politica-de-privacidad">Política de privacidad</a></li>
-				<li><a href="<?= $baseUrl ?>/politica-de-cookies">Política de cookies</a></li>
+        <li><a href="<?= $baseUrl ?>/contacto">Contacto</a></li>
+        <li><a href="<?= $baseUrl ?>/aviso-legal">Aviso Legal</a></li>
+        <li><a href="<?= $baseUrl ?>/politica-de-privacidad">Política de privacidad</a></li>
+        <li><a href="<?= $baseUrl ?>/politica-de-cookies">Política de cookies</a></li>
 			</ul>
 		</div><!-- .site-info -->
 	</footer><!-- .site-footer -->

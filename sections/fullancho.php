@@ -7,8 +7,8 @@
   }
   .full-ancho-texto {
     margin-top: 3em;
-    padding: 1em 3em;
-    background-color: rgba(255, 255, 255, 0.8);
+    padding: 1.3em 3em 2em;
+    background-color: rgba(255, 255, 255, 0.9);
     border-top-left-radius: 70px;
     border-top-right-radius: 20px;
     border-bottom-right-radius: 70px;

@@ -20,8 +20,8 @@
 } */
 
 .full-ancho-container {
-  border-top: 3px dashed #85B0DD;
-  border-bottom: 3px dashed #B385DE;
+  border-top: 2px solid #85B0DD;
+  border-bottom: 2px solid #B385DE;
   margin: 20px 0;
 }
 

@@ -30,10 +30,21 @@
   text-align: justify;
 }
 
+.text-dark-blanco, .text-dark-blanco a {
+  color: #333 !important;
+  text-shadow: 0.5px 0.5px 1px #fff;
+}
+
+.mb-2 {
+  margin-bottom: 2px;
+}
+
+.portada_post_line {
+  margin-bottom: 5px;
+}
+
 .portada_post_line a {
-  color: #333;
   font-weight: bold;
-  text-shadow: 0 0 6px #FFF;
   text-decoration: none;
   padding: 2px 0;
 }

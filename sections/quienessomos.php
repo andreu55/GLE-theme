@@ -16,7 +16,7 @@
       </p>
       <p>
         <?php foreach ($u['botonacos'] as $btn): ?>
-          <a href="<?= $btn['url'] ?>" target="_blank" rel="nofollow" class="btn btn-primary">
+          <a href="<?= $btn['url'] ?>" target="_blank" rel="nofollow" class="btn btn-primary mb-2">
             <?= $btn['texto'] ?>
           </a>
         <?php endforeach; ?>
